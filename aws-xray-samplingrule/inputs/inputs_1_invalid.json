@@ -1,0 +1,14 @@
+{
+  "SamplingRule": {
+    "ResourceARN": "*",
+    "Priority": 2,
+    "FixedRate": 0.05,
+    "ReservoirSize": 50,
+    "ServiceName": "*",
+    "ServiceType": "*",
+    "Host": "*",
+    "HTTPMethod": "*",
+    "URLPath": "*",
+    "Version": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "SamplingRule": {
+    "RuleName": "ContractTestName",
+    "ResourceARN": "*",
+    "Priority": 1,
+    "FixedRate": 0.01,
+    "ReservoirSize": 20,
+    "ServiceName": "UpdateServiceName",
+    "ServiceType": "UpdateServiceType",
+    "Host": "UpdateHostName",
+    "HTTPMethod": "GET",
+    "URLPath": "UpdateUrlPath"
+  }
+}

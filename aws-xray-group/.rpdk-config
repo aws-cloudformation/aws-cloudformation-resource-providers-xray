@@ -1,0 +1,18 @@
+{
+    "artifact_type": "RESOURCE",
+    "typeName": "AWS::XRay::Group",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.xray.group.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.xray.group.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "xray",
+            "group"
+        ],
+        "protocolVersion": "2.0.0"
+    },
+    "executableEntrypoint": "software.amazon.xray.group.HandlerWrapperExecutable"
+}

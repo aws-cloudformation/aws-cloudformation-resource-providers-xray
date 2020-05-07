@@ -1,0 +1,18 @@
+{
+    "artifact_type": "RESOURCE",
+    "typeName": "AWS::XRay::SamplingRule",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.xray.samplingrule.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.xray.samplingrule.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "xray",
+            "samplingrule"
+        ],
+        "protocolVersion": "2.0.0"
+    },
+    "executableEntrypoint": "software.amazon.xray.samplingrule.HandlerWrapperExecutable"
+}

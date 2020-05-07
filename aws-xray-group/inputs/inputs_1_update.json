@@ -1,0 +1,4 @@
+{
+  "GroupName": "ContractTest",
+  "FilterExpression": "annotation.update_for_cfn_contract = true"
+}

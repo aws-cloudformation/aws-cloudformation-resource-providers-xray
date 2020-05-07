@@ -1,0 +1,8 @@
+{
+  "GroupName": "ContractTest",
+  "FilterExpression": "annotation.create_for_cfn_contract = true",
+  "InsightsConfiguration": {
+    "InsightsEnabled": false,
+    "NotificationsEnabled": false
+  }
+}
